@@ -10,9 +10,9 @@
   makeWrapper,
   wlr-randr,
 }:
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   pname = "caelestia-greeter";
-  version = "1.0.2";
+  version = "1.1.0";
 
   src = ./..;
 
